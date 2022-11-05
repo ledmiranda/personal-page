@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="container">
+    <div className="nav-container">
       <div className="creator">Luis Miranda</div>
       <nav className="navigator-menu">
         <button onClick={() => changeNavOption(options.home)}>

@@ -1,5 +1,11 @@
+import Container from '../components/container/Container';
+
 const Contact = () => {
-  return <div>Contact page</div>;
+  return (
+    <Container>
+      <div>This is the contact page</div>
+    </Container>
+  );
 };
 
 export default Contact;
